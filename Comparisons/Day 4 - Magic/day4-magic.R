@@ -3,6 +3,7 @@ library(dplyr)
 library(extrafont)
 library(ggplot2)
 library(waffle)
+library(patchwork)
 
 tweets_d <- search_tweets("#Dumbledore",
                           n = 10000) %>%
